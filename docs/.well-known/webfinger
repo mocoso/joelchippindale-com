@@ -1,0 +1,23 @@
+{
+  "subject": "acct:mocoso@mastodon.social",
+  "aliases": [
+    "https://mastodon.social/@mocoso",
+    "https://mastodon.social/users/mocoso"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://mastodon.social/@mocoso"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://mastodon.social/users/mocoso"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://mastodon.online/authorize_interaction?uri={uri}"
+    }
+  ]
+}
